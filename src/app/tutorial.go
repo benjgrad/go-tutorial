@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
+
+	"github.com/benjgrad/go-tutorial/src/app/dice"
 )
 
 func main() {
@@ -12,7 +14,7 @@ func main() {
 
 	//Initializing and setting multiple values
 	//:= is a variable declaration shorthand
-	a, b := Roll()
+	a, b := dice.Roll()
 
 	//Print with formatting
 	fmt.Printf("Dice 1: %v Dice 2: %v Roll value: %v\n", a, b, Add(a, b))
