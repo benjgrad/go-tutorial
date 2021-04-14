@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/benjgrad/go-tutorial/src/app/dice"
+	"github.com/benjgrad/go-tutorial/tree/main/src/app/dice"
 )
 
 func main() {
